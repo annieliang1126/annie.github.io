@@ -1,0 +1,307 @@
+/* GENERAL */
+html {
+	text-align: center;
+	margin: 0 auto;
+	padding: 0;
+	max-width: 100%;
+
+}
+
+img {
+	max-width: 100%;
+	width: 50%;
+	margin-top: 5%;
+	border-radius: 3%;
+	margin-bottom: 5%
+
+
+}
+
+h2 {
+	color: white;
+	font-weight: 900;
+	font-family: 'Varela Round', sans-serif;
+	font-size: 3.0vw;
+	letter-spacing: 0.06em;
+	opacity: 1;
+}
+
+a {
+	text-decoration: none;
+}
+
+
+p {
+	width: 80%;
+	margin: 5% 10%;
+	line-height: 2em;
+	font-weight: 200;
+	letter-spacing: 0.06em;
+	font-size: 15px;
+}
+
+button:hover {
+	font-size: 16px;
+
+}
+
+/* HEADER */
+header {
+	background-color: #00aeef;
+	margin: 0 auto;
+	padding: 0;
+	opacity: 0.8;
+	position: fixed;
+	z-index: 8000;
+	width: 100%;
+
+}
+
+/* NAVIGATION */
+
+nav li, #click, #click2, #click3 {
+	display: inline-block;
+	font-size: 1.1vw;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	letter-spacing: 0.1em;
+	cursor: pointer;
+	margin-left: 2.5vw;
+	margin-right: 2.5vw;
+	box-shadow: none;
+}
+
+ul.first {
+	margin-left: -38px;
+}
+
+
+i {
+	font-size: 3.5vw;
+	color: #ff9900;
+	padding-right: 3vw;
+	padding-left: 3vw;
+	font-family: 'Varela Round', sans-serif;
+	letter-spacing: -0.2em;
+}
+a, a:visited {
+	text-decoration: none;
+	color: white;
+}
+ 
+nav a:hover, #click:hover, #click2:hover, #click3:hover {
+	color: #ff9900;
+	text-decoration: none;
+	background-color: #00aeef;
+}
+
+ button {
+	font-size: 15px;
+    padding: .7em 1.5em;
+	font-family: 'Varela Round', sans-serif;
+	color: white;
+	background-color: #00aeef;
+	position: relative;
+	z-index: 900;
+	border: 1px solid #00aeef;
+	border-radius: 5px;
+	cursor: pointer;
+}
+
+button {
+	box-shadow: 0 0.5em 1em rgba(0,0,0,.1);
+	letter-spacing: 0.1em;
+
+}
+
+button:hover {
+	background-color: #1a8cff;
+	border: 1px solid #1a8cff;
+}
+
+a#logoPersonal {
+	margin-left: -30px;
+}
+
+a#click2 {
+	margin-left: 0px;
+}
+/* JUMBOTRON */
+.jumbotron1 {
+  padding: 24% 15%;
+  margin-bottom: 0;
+  color: inherit;
+  background-color: #f9f9f9;
+  text-align: center;
+  background-size: cover;
+  background-image: url("https://scontent-yyz1-1.xx.fbcdn.net/v/t31.0-8/16252170_934244333379780_2943917628673213128_o.jpg?oh=f21e5d5c6acd81f5c40fe12412a288a6&oe=59290578");
+  opacity: 0.75;
+}
+
+h1 {
+	color: #e65c00;
+}
+
+/* CONTAINER */
+
+/* ABOUT ME */
+#aboutMe {
+	background-color: #00aeef;
+	width: 100%;
+	position: relative;
+	z-index: 3000;
+	padding-top: 0.1em;
+	padding-bottom: 0.1em;
+	opacity: 0.75;
+}
+
+#me, img {
+	box-shadow: 0 0.5em 1em rgba(0,0,0,.2);
+}
+
+#me {
+	width: 80%;
+	
+}
+
+
+/* PROJECTS */
+
+#projects, .blog, #contact {
+	background-color: #00aeef;
+	width: 100%;
+	position: relative;
+	z-index: 4000;
+	padding-top: 0.1px;
+	padding-bottom: 0.1px;
+	opacity: 0.75;
+}
+
+.angels p {
+	color: black;
+	font-size: 20px;
+	font-weight: 900;
+	position: absolute;
+	left: 0;
+	margin-top: -25%;
+}
+
+#group {
+	font-size: 8px;
+	font-family: 'Montserrat', sans-serif;
+	margin-top: 1em;
+	font-weight: 400;
+	font-style: italic;
+}
+
+.angels img {
+	opacity: 0.5;
+	width: 80%;
+
+}
+
+.angels button {
+	position: absolute;
+	left: 37%;
+	margin-top: 40%;
+}
+
+
+/* BLOG */
+
+
+.titles {
+	font-size: 20px;
+	font-weight: 900;
+	color: #ff9900;
+	font-family: 'Montserrat', sans-serif;
+
+}
+
+.blogPic img {
+	width: 80%;
+	opacity: 0.6;
+}
+
+
+.blogPic button {
+	position: absolute;
+	left: 37%;
+	margin-top: 20%;
+	}
+
+.blogPic button:hover {
+	font-size: 16px;
+}
+
+.blogPic a, #proj a {
+	text-decoration: none;
+	color: white;
+}
+.titles {
+	font-size: 2em;
+}
+/* CONTACT */
+
+.foot button:hover {
+	color: #ff9900;
+}
+
+
+.foot button {
+	background-color: white;
+	border: 2px solid #00aeef;
+	font-size: 1em;
+	margin-top: 10px;
+	letter-spacing: 0.1em;
+	color: black;
+	box-shadow: none;
+
+}
+.foot img {
+	background-color: white;
+	border: 1px solid white;
+	height: 5%;
+	width: 5%;
+	cursor: pointer;
+	display: inline-block;
+	position: relative;
+	margin-bottom: 0%;
+	margin-left: 2%;
+	margin-right: 0;
+	box-shadow: none;
+	opacity: 0.5;
+}
+
+.foot img:hover {
+	opacity: 1;
+}
+
+.call h2 {
+	color: black;
+	font-family: 'Montserrat', sans-serif;
+	font-size: 2em;
+	font-weight: normal;
+	margin-top: 1.5em;
+
+}
+
+
+
+
+/* FOOTER */
+footer {
+	background-color: #404040;
+	color: #a6a6a6;
+	margin-bottom: -5%;
+	max-width: 100%;
+	font-size: 10px;
+	padding-bottom: 2%;
+}
+
+
+footer p {
+	box-sizing: border-box;
+	margin-bottom: 1%;
+	padding-top: 2%; 
+}
